@@ -6,6 +6,7 @@
 1. Define new Ruby classes with the `class` keyword.
 2. Instantiate instances of a `class`.
 
+
 ## Overview
 
 This lab is all about defining classes and instantiating instances.
