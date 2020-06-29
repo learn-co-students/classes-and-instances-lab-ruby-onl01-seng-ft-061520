@@ -2,10 +2,8 @@ require 'spec_helper'
 
 describe 'Dog' do
   it 'is defined within lib/dog.rb' do
-    if file_includes_class_definition('lib/dog.rb','Dog')
-      expect(defined?(Dog)).to be_truthy
-      expect(Dog).to be_a(Class)
-    end
+    expect(defined?(Dog)).to be_truthy
+    expect(Dog).to be_a(Class)
   end
 
   context 'variables defined in lib/dog.rb' do
@@ -28,10 +26,8 @@ end
 
 describe 'Person' do
   it 'is defined within lib/person.rb' do
-    if file_includes_class_definition('lib/person.rb','Person')
-      expect(defined?(Person)).to be_truthy
-      expect(Person).to be_a(Class)
-    end
+    expect(defined?(Person)).to be_truthy
+    expect(Person).to be_a(Class)
   end
 
   context 'variables defined in lib/person.rb' do
